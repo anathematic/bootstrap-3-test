@@ -1,0 +1,36 @@
+
+
+
+
+@media (max-width: 760px){
+  .extra-thumbs {
+    display: none;
+  }
+}
+
+p {
+  color:red;
+  padding:0 10px 10px 10px;
+}
+
+@media (min-width: 760px){
+  .image-center img, .extra-thumbs img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 760px){
+  .image-center {
+    text-align: center;
+  }
+}  
+
+@media (min-width: 992px){
+  .image-center img, .extra-thumbs img {
+    width: 300px;
+  }
+}
+
+.image-center, .extra-thumbs {
+  padding-bottom:30px;
+}
