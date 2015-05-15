@@ -2,28 +2,32 @@
 
 
 
-@media (max-width: 760px){
+@media (max-width: 765px){
   .extra-thumbs {
     display: none;
   }
+  .rating-image {
+    text-align: center;
+  }
+
 }
 
-p {
-  color:red;
-  padding:0 10px 10px 10px;
-}
 
-@media (min-width: 760px){
+@media (min-width: 765px){
   .image-center img, .extra-thumbs img {
-    width: 200px;
+    width: 195px;
   }
 }
 
-@media (max-width: 760px){
+@media (max-width: 765px){
   .image-center {
     text-align: center;
   }
 }  
+
+
+
+
 
 @media (min-width: 992px){
   .image-center img, .extra-thumbs img {
@@ -31,6 +35,11 @@ p {
   }
 }
 
+
+
 .image-center, .extra-thumbs {
   padding-bottom:30px;
 }
+
+
+
