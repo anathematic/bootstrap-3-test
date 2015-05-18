@@ -1,0 +1,45 @@
+
+
+
+
+@media (max-width: 765px){
+  .extra-thumbs {
+    display: none;
+  }
+  .rating-image {
+    text-align: center;
+  }
+
+}
+
+
+@media (min-width: 765px){
+  .image-center img, .extra-thumbs img {
+    width: 195px;
+  }
+}
+
+@media (max-width: 765px){
+  .image-center {
+    text-align: center;
+  }
+}  
+
+
+
+
+
+@media (min-width: 992px){
+  .image-center img, .extra-thumbs img {
+    width: 300px;
+  }
+}
+
+
+
+.image-center, .extra-thumbs {
+  padding-bottom:30px;
+}
+
+
+
